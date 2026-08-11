@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryan Wang — Software Engineer</title>
+  <meta name="description" content="Portfolio of Bryan Wang, software engineer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">PORTFOLIO<span class="nav__logo-dot"></span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">ABOUT ME</a>
+        <a href="projects.html" class="is-active">PROJECTS</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="section section--page">
+    <p class="eyebrow mono">v1.2.0 &nbsp;·&nbsp; projects</p>
+    <h1 class="section__title">Selected work</h1>
+
+    <div class="commits">
+
+      <article class="commit">
+        <div class="commit__meta mono">
+          <span class="commit__hash">a1c9e2f</span>
+          <span class="commit__date">2026-03</span>
+        </div>
+        <h2 class="commit__title">Routewise — real-time delivery routing engine</h2>
+        <p class="commit__desc">
+          Rebuilt a delivery dispatch service to route 40k daily orders using a
+          constraint-solver instead of a greedy heuristic, cutting average
+          driver idle time by 22%.
+        </p>
+        <ul class="commit__stack mono">
+          <li>Go</li><li>PostgreSQL</li><li>AWS ECS</li><li>Redis</li>
+        </ul>
+        <div class="commit__links">
+          <a href="#">source →</a>
+          <a href="#">writeup →</a>
+        </div>
+      </article>
+
+      <article class="commit">
+        <div class="commit__meta mono">
+          <span class="commit__hash">6b40d13</span>
+          <span class="commit__date">2025-09</span>
+        </div>
+        <h2 class="commit__title">Ledgerline — expense-splitting API</h2>
+        <p class="commit__desc">
+          Public REST API and small web client for splitting shared expenses.
+          Designed the schema and auth layer from scratch; 300+ GitHub stars.
+        </p>
+        <ul class="commit__stack mono">
+          <li>TypeScript</li><li>Node</li><li>PostgreSQL</li><li>Vercel</li>
+        </ul>
+        <div class="commit__links">
+          <a href="#">source →</a>
+          <a href="#">live demo →</a>
+        </div>
+      </article>
+
+      <article class="commit">
+        <div class="commit__meta mono">
+          <span class="commit__hash">f02a88c</span>
+          <span class="commit__date">2025-02</span>
+        </div>
+        <h2 class="commit__title">Shelfmap — inventory sync for small retailers</h2>
+        <p class="commit__desc">
+          Event-driven sync service reconciling POS and warehouse stock across
+          3 systems, replacing a nightly batch job with near-instant updates.
+        </p>
+        <ul class="commit__stack mono">
+          <li>Python</li><li>AWS Lambda</li><li>SQS</li><li>Terraform</li>
+        </ul>
+        <div class="commit__links">
+          <a href="#">source →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p class="mono">© 2026 Bryan Wang Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

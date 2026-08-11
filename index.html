@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryan Wang — Software Engineer</title>
+  <meta name="description" content="Portfolio of Bryan Wang, software engineer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">PORTFOLIO<span class="nav__logo-dot"></span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html" class="is-active">ABOUT ME</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO / ABOUT ============ -->
+  <section class="hero" id="top">
+    <div class="hero__grid">
+      <div class="hero__intro">
+        <h1 class="hero__name">Bryan Wang</h1>
+        <p class="hero__role">AI Software Engineer — Backend &amp; Distributed Systems</p>
+        <p class="hero__blurb">
+          I build reliable services and the systems that keep them running.
+          Currently looking for my next role. Below is what I know and where
+          I've worked — projects and contact info live on their own pages.
+        </p>
+        <div class="hero__cta">
+          <a href="projects.html" class="btn btn--primary">view projects</a>
+          <a href="/D:\BryanWang\Personal Website\kyawzinthu_CV.pdf" class="btn btn--ghost">download résumé</a>
+        </div>
+      </div>
+
+      <div class="terminal" role="img" aria-label="Terminal animation showing a whoami and skills query">
+        <div class="terminal__bar">
+          <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+          <span class="terminal__title mono">bryanwang@portfolio — kzt</span>
+        </div>
+        <div class="terminal__body mono" id="terminalBody" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <p class="eyebrow mono"></p>
+    <h2 class="section__title">What I work with</h2>
+
+    <div class="diff">
+      <div class="diff__group">
+        <p class="diff__label mono">Languages</p>
+        <ul class="diff__list">
+          <li class="diff__line diff__line--add mono">+ TypeScript / JavaScript</li>
+          <li class="diff__line diff__line--add mono">+ Python</li>
+          <li class="diff__line diff__line--add mono">+ Go</li>
+          <li class="diff__line diff__line--rm mono">- PHP <span class="diff__note">(early career, retired)</span></li>
+        </ul>
+      </div>
+      <div class="diff__group">
+        <p class="diff__label mono">infrastructure</p>
+        <ul class="diff__list">
+          <li class="diff__line diff__line--add mono">+ AWS (ECS, Lambda, S3, RDS)</li>
+          <li class="diff__line diff__line--add mono">+ Docker</li>
+          <li class="diff__line diff__line--add mono">+ Terraform</li>
+          <li class="diff__line diff__line--add mono">+ GitHub Actions / CI-CD</li>
+        </ul>
+      </div>
+      <div class="diff__group">
+        <p class="diff__label mono">data &amp; apis</p>
+        <ul class="diff__list">
+          <li class="diff__line diff__line--add mono">+ PostgreSQL</li>
+          <li class="diff__line diff__line--add mono">+ Redis</li>
+          <li class="diff__line diff__line--add mono">+ REST &amp; GraphQL design</li>
+          <li class="diff__line diff__line--add mono">+ gRPC</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  ```html
+<section class="section section--muted" id="experience">
+<!--   <p class="eyebrow mono">v2.0.0 &nbsp;·&nbsp; git log --experience</p>
+ -->  <h2 class="section__title">Where I've worked</h2>
+
+  <div class="log">
+
+    <div class="log__entry">
+      <div class="log__marker" aria-hidden="true"></div>
+      <div class="log__content">
+        <p class="log__range mono">2024 — present</p>
+        <h3 class="log__role">
+          Product &amp; Operations Coordinator, Voxperig — AI EdTech Startup
+        </h3>
+        <p class="log__desc">
+          Coordinated sprints, delegated tasks, tracked team progress, and
+          facilitated team meetings. Streamlined communication, gathered
+          feedback, and supported the delivery of product initiatives.
+        </p>
+      </div>
+    </div>
+
+   <!--  <div class="log__entry">
+      <div class="log__marker" aria-hidden="true"></div>
+      <div class="log__content">
+        <p class="log__range mono">2024 — present</p>
+        <h3 class="log__role">
+          Freelance Model, Independent
+        </h3>
+        <p class="log__desc">
+          Collaborated with fashion brands, designers, and photographers
+          across Bangkok and Sheffield, adapting to different creative
+          environments while maintaining a professional presence.
+        </p>
+      </div>
+    </div> -->
+
+    <div class="log__entry">
+      <div class="log__marker" aria-hidden="true"></div>
+      <div class="log__content">
+        <p class="log__range mono">2022 — 2023</p>
+        <h3 class="log__role">
+          IT Support &amp; Executive, Team99 Media Production
+        </h3>
+        <p class="log__desc">
+          Provided technical support, managed employee data, coordinated
+          multiple client accounts, and improved internal system efficiency.
+          Led event technology setups and presentations while maintaining
+          reliable systems and supporting IT strategy.
+        </p>
+      </div>
+    </div>
+
+    <div class="log__entry">
+      <div class="log__marker" aria-hidden="true"></div>
+      <div class="log__content">
+        <p class="log__range mono">2021 — 2022</p>
+        <h3 class="log__role">
+          Private Tutor, Find Tutors
+        </h3>
+        <p class="log__desc">
+          Delivered personalised 1:1 tutoring in computing and mathematics,
+          adapting lessons to individual learning styles and pace. Built
+          strong relationships with students and parents through clear
+          communication, progress tracking, and goal setting.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <footer class="site-footer">
+    <p class="mono">© 2026 Bryan Wang Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
