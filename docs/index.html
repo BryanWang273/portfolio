@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryan Wang — Software Engineer</title>
+  <meta name="description" content="Portfolio of Bryan Wang (Kyaw Zin Thu), software engineer building backend systems, full-stack apps, and AI-powered tools.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="siteNav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Bryan Wang<span class="nav__logo-dot">.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html" class="is-active">About</a>
+        <a href="projects.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <p class="hero__eyebrow reveal">Portfolio — Est. 2026</p>
+    <h1 class="hero__name reveal">Bryan Wang<br><em>Software Engineer.</em></h1>
+    <p class="hero__role reveal">
+      <span id="roleText">Backend &amp; Full-Stack Systems</span><span class="cursor-blink" aria-hidden="true"></span>
+    </p>
+    <p class="hero__blurb reveal">
+      I build reliable services and the systems that keep them running — from
+      FastAPI backends and Postgres schemas to the Next.js interfaces on top,
+      with the occasional AI agent that earns its place. Currently open to
+      new roles.
+    </p>
+    <div class="hero__cta reveal">
+      <a href="projects.html" class="btn btn--primary">View Work</a>
+      <a href="pdf/kyawzinthu_CV.pdf" class="btn btn--ghost" download>Download Résumé</a>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>FastAPI</span><span>Next.js</span><span>PostgreSQL</span><span>Python</span><span>TypeScript</span><span>Docker</span><span>AI Agents</span><span>React</span>
+      <span>FastAPI</span><span>Next.js</span><span>PostgreSQL</span><span>Python</span><span>TypeScript</span><span>Docker</span><span>AI Agents</span><span>React</span>
+    </div>
+  </div>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <p class="eyebrow reveal">01 — Toolset</p>
+    <h2 class="section__title reveal">What I work with</h2>
+
+    <div class="diff">
+      <div class="diff__group reveal">
+        <p class="diff__label mono">Languages</p>
+        <ul class="diff__list">
+          <li class="diff__line">Python</li>
+          <li class="diff__line">TypeScript / JavaScript</li>
+          <li class="diff__line">Java</li>
+          <li class="diff__line">C#</li>
+          <li class="diff__line">SQL</li>
+        </ul>
+      </div>
+      <div class="diff__group reveal">
+        <p class="diff__label mono">Backend &amp; Data</p>
+        <ul class="diff__list">
+          <li class="diff__line">FastAPI &amp; REST API design</li>
+          <li class="diff__line">SQLAlchemy 2.0 &amp; Alembic</li>
+          <li class="diff__line">PostgreSQL &amp; MySQL</li>
+          <li class="diff__line">Spring Boot</li>
+        </ul>
+      </div>
+      <div class="diff__group reveal">
+        <p class="diff__label mono">Frontend &amp; Tools</p>
+        <ul class="diff__list">
+          <li class="diff__line">Next.js (App Router) &amp; React</li>
+          <li class="diff__line">Tailwind CSS &amp; Bootstrap</li>
+          <li class="diff__line">UI/UX Design</li>
+          <li class="diff__line">Docker</li>
+          <li class="diff__line">IoT Systems &amp; Power BI</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section--muted" id="experience">
+    <p class="eyebrow reveal">02 — Experience</p>
+    <h2 class="section__title reveal">Where I've worked</h2>
+
+    <div class="log">
+
+      <div class="log__entry reveal">
+        <div class="log__marker" aria-hidden="true"></div>
+        <div class="log__content">
+          <p class="log__range mono">2024 — Present</p>
+          <h3 class="log__role">
+            Product &amp; Operations Coordinator, Voxperig — AI EdTech Startup
+          </h3>
+          <p class="log__desc">
+            Coordinated sprints, delegated tasks, tracked team progress, and
+            facilitated team meetings. Streamlined communication, gathered
+            feedback, and supported the delivery of product initiatives.
+          </p>
+        </div>
+      </div>
+
+      <div class="log__entry reveal">
+        <div class="log__marker" aria-hidden="true"></div>
+        <div class="log__content">
+          <p class="log__range mono">2022 — 2023</p>
+          <h3 class="log__role">
+            IT Support &amp; Executive, Team99 Media Production
+          </h3>
+          <p class="log__desc">
+            Provided technical support, managed employee data, coordinated
+            multiple client accounts, and improved internal system efficiency.
+            Led event technology setups and presentations while maintaining
+            reliable systems and supporting IT strategy.
+          </p>
+        </div>
+      </div>
+
+      <div class="log__entry reveal">
+        <div class="log__marker" aria-hidden="true"></div>
+        <div class="log__content">
+          <p class="log__range mono">2021 — 2022</p>
+          <h3 class="log__role">
+            Private Tutor, Find Tutors
+          </h3>
+          <p class="log__desc">
+            Delivered personalised 1:1 tutoring in computing and mathematics,
+            adapting lessons to individual learning styles and pace. Built
+            strong relationships with students and parents through clear
+            communication, progress tracking, and goal setting.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p class="mono">© 2026 Bryan Wang</p>
+    <div class="footer__links">
+      <a href="mailto:kyawzinthu84@gmail.com">Email</a>
+      <a href="https://github.com/BryanWang273" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/kyaw-zin-thu-166324361" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
